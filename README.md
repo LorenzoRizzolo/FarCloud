@@ -29,7 +29,7 @@ Now you are able to use this script and see the menu to manage your dns.
 
 # Options
 
-You have a few option for FarCloud:
+You have many option for FarCloud:
 | Option | Description |
 |---|---|
 | Scan all Records | Scan all your records of your dns |
