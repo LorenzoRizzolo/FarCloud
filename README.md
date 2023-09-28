@@ -33,7 +33,6 @@ You have a few option for FarCloud:
 | Option | Description |
 |---|---|
 | Scan all Records | Scan all your records of your dns |
-|---|---|
 | Change record | change the ip of all record with type A, this i useful for little dns to change all subdomain |
 |---|---|
 | Add record | add record putting the type as 'A' or 'MX' and writing the ip address |
