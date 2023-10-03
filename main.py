@@ -210,19 +210,19 @@ def switch_opt(choose):
     
     
 # ---------------------START------------------------
-title("Welcome on FarCloud")
+title("WELCOME TO FARCLOUD")
 title("START")
 print("Checking token and zoneid...")
 if api_token == "":
-    print("API TOKEN isn't setted.")
+    print("API TOKEN isn't set.")
     print("You must set it into .env file in this directory as .env.example")
     exit()
 if zone_id == "":
-    print("ZONE ID isn't setted.\n")
+    print("ZONE ID isn't set.\n")
     print("You must set it into .env file in this directory as .env.example")
     exit()
 if site == "":
-    print("SITE isn't setted.\n")
+    print("SITE isn't set.\n")
     print("You must set it into .env file in this directory as .env.example")
     exit()
     
@@ -232,7 +232,7 @@ check=1
 while check==1:
     title("MENU")
 
-    opt = [ "Scan you records" , "Change ip of all A records" , "Add record" , "Remove record A" ]
+    opt = [ "Scan your records" , "Change ip of all A records" , "Add record" , "Remove record A" ]
 
     for index, op in enumerate(opt):
         print("["+str(index)+"]", op)
