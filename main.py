@@ -234,6 +234,7 @@ while check==1:
     title("MENU")
 
     opt = [ "Scan your records" , "Change ip of all A records" , "Add record" , "Remove record A" ]
+    print("WebSite: "+site)
 
     for index, op in enumerate(opt):
         print("["+str(index)+"]", op)
