@@ -155,7 +155,8 @@ def change_ip():
     if valid_ip(new_ip)==1:
         dns_records = get_dns_records()
         for record in dns_records:
-            if record['name']!="mx.rizzolo.cloud" and record['type']=="A":
+            sub = record['name'].split(".")[0]
+            if sub!="mx" and record['type']=="A":
                 end = update_dns_record(record['id'], new_ip)
                 print(record['name']+": "+end)
         print("")
